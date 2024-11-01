@@ -1,0 +1,396 @@
+.svea-get-address-button-container {
+    .svea-get-address-button {
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #27ae60;
+        border-radius: 7px;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        -webkit-transition: background-color 0.2s ease-in-out;
+        -moz-transition: background-color 0.2s ease-in-out;
+        -ms-transition: background-color 0.2s ease-in-out;
+        -o-transition: background-color 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: #219451;
+        }
+
+        &:after {
+            font-family: "Font Awesome 5 Pro";
+            content: '';
+            color: #2ecc71;
+            display: inline-block;
+            font-size: 24px;
+            position: absolute;
+            right: -40px;
+            margin: 0 auto;
+			width: 24px;
+			height: 24px;
+			line-height: 24px;
+			text-align: center;
+			vertical-align: middle;
+			top: 12px;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+            -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+            -ms-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+            -o-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+            transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+        }
+    }
+
+    &.getting-address,
+    &.getting-address-success,
+    &.getting-address-error {
+        .svea-get-address-button:after {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &.getting-address-success .svea-get-address-button:after {
+        content: "\f00c";
+        color: #2ecc71;
+    }
+
+    &.getting-address-error .svea-get-address-button:after {
+        content: "\f00d";
+        color: #e74c3c;
+    }
+
+    &.getting-address .svea-get-address-button:after {
+        color: #2ecc71;
+        content: "\f110";
+        -webkit-animation: fa-spin 1s infinite ease;
+        -moz-animation: fa-spin 1s infinite ease;
+        -ms-animation: fa-spin 1s infinite ease;
+        -o-animation: fa-spin 1s infinite ease;
+        animation: fa-spin 1s infinite ease;
+    }
+}
+
+.woocommerce .woocommerce-checkout {
+    &.hide-shipping-fields {
+        .woocommerce-shipping-fields {
+            #ship-to-different-address,
+            .shipping_address {
+                display: none !important;
+            }
+        }
+    }
+}
+
+.svea-get-address-button-container.get-address-shortcode {
+    display: none;
+    margin-bottom: 20px;
+
+    input[type="radio"] {
+        display: none;
+
+        + label {
+            display: inline-block;
+            background-color: #ddd;
+            padding: 6px 20px;
+            margin-right: 0;
+            cursor: pointer;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            font-weight: 700;
+        }
+
+        &:checked + label {
+            background-color: #efefef;
+        }
+    }
+
+    .svea-get-address-button-inner {
+        background-color: #efefef;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .organisation-number-container,
+    .personal-number-container,
+    .svea-get-address-button,
+    .customer-type-container {
+        display: none;
+    }
+
+    &.country-se, &.country-dk, &.country-no {
+        display: block;
+    }
+
+    &.country-se, &.country-dk {
+        &.customer-type-individual, &.customer-type-company {
+            .svea-get-address-button {
+                display: inline-block;
+            }
+        }
+
+        .customer-type-container {
+            display: block;
+        }
+
+        &.customer-type-individual {
+            .personal-number-container {
+                display: block;
+            }
+        }
+
+        &.customer-type-company {
+            .organisation-number-container {
+                display: block;
+            }
+
+            .org-address-selector {
+                display: block;
+            }
+
+            .org-address-selector:empty {
+                display: none;
+            }
+        }
+    }
+
+    &.country-no {
+        &.customer-type-company {
+            .svea-get-address-button {
+                display: inline-block;
+            }
+        }
+
+        .customer-type-container {
+            display: block;
+        }
+
+        &.customer-type-individual {
+            .personal-number-container {
+                display: block;
+            }
+        }
+
+        &.customer-type-company {
+            .organisation-number-container {
+                display: block;
+            }
+
+            .org-address-selector {
+                display: block;
+            }
+
+            .org-address-selector:empty {
+                display: none;
+            }
+        }
+    }
+
+    &.invoice-not-available {
+        display: none;
+    }
+}
+
+.payment_methods {
+    .form-row {
+        .input-radio {
+            margin-right: 10px;
+            vertical-align: top;
+            margin-top: 6px;
+        }
+
+        label.radio {
+            display: inline-block;
+            width: calc(100% - 30px);
+            line-height: 1.7em;
+            margin-bottom: 20px;
+        }
+    }
+
+    .svea-direct-bank-payment-method-container,
+    .customer-type-container, 
+    .organisation-number-container,
+    .personal-number-container,
+    .svea-get-address-button,
+    .birth-date-container,
+    .org-address-selector,
+    .vat-number-container,
+    .initials-container {
+        display: none;
+    }
+
+    &.payment-method-sveawebpay_direct_bank {
+        .svea-direct-bank-payment-method-container {
+            display: block;
+        }
+
+        &.country-se {
+            #direct-bank-selector-container-SKRILL,
+            #direct-bank-selector-container-BANKAXESS {
+                display: none;
+            }
+        }
+
+        &.country-dk {
+            #direct-bank-selector-container-BANKAXESS,
+            #direct-bank-selector-container-DBNORDEASE,
+            #direct-bank-selector-container-DBSHBSE,
+            #direct-bank-selector-container-DBSEBSE,
+            #direct-bank-selector-container-DBSEBFTGSE,
+            #direct-bank-selector-container-DBSWEDBANKSE {
+                display: none;
+            }
+        }
+
+        &.country-no {
+            #direct-bank-selector-container-SKRILL,
+            #direct-bank-selector-container-DBNORDEASE,
+            #direct-bank-selector-container-DBSHBSE,
+            #direct-bank-selector-container-DBSEBSE,
+            #direct-bank-selector-container-DBSEBFTGSE,
+            #direct-bank-selector-container-DBSWEDBANKSE {
+                display: none;
+            }
+        }
+
+        &.country-fi, 
+        &.country-de, 
+        &.country-nl {
+            #direct-bank-selector-container-BANKAXESS,
+            #direct-bank-selector-container-SKRILL,
+            #direct-bank-selector-container-DBNORDEASE,
+            #direct-bank-selector-container-DBSHBSE,
+            #direct-bank-selector-container-DBSEBSE,
+            #direct-bank-selector-container-DBSEBFTGSE,
+            #direct-bank-selector-container-DBSWEDBANKSE {
+                display: none;
+            }
+        }
+    }
+
+    &.payment-method-sveawebpay_invoice {
+        .svea-invoice-fields .customer-type-container {
+            display: block;
+        }
+
+        &.customer-type-individual {
+            .svea-invoice-fields .personal-number-container {
+                display: block;
+            }
+        }
+
+        &.customer-type-company {
+            .svea-invoice-fields .organisation-number-container {
+                display: block
+            }
+
+            .svea-invoice-fields .org-address-selector {
+                display: block;
+            }
+
+            .svea-invoice-fields .org-address-selector:empty {
+                display: none;
+            }
+        }
+
+        &.country-se, &.country-dk {
+            // #billing_address_1, #billing_address_2, #billing_postcode, #billing_city {
+            //     cursor: not-allowed;
+            // }
+
+            &.customer-type-individual, &.customer-type-company {
+                .svea-invoice-fields .svea-get-address-button {
+                    display: inline-block;
+                }
+            }
+
+            &.customer-type-individual.is-pay-page .svea-invoice-fields .svea-get-address-button {
+                display: none;
+            }
+        }
+
+        &.country-no {
+            &.customer-type-company {
+                .svea-invoice-fields .svea-get-address-button {
+                    display: inline-block;
+                }
+
+                &.is-pay-page .svea-part-pay-fields .svea-get-address-button {
+                    display: none;
+                }
+            }
+        }
+
+        &.country-nl {
+            &.customer-type-individual {
+                .svea-invoice-fields .initials-container {
+                    display: block;
+                }
+            }
+        }
+
+        &.country-nl, &.country-de {
+            .svea-invoice-fields .organisation-number-container, 
+            .svea-invoice-fields .personal-number-container {
+                display: none;
+            }
+
+            &.customer-type-individual {
+                .svea-invoice-fields .birth-date-container {
+                    display: block;
+                }
+            }
+
+            &.customer-type-company {
+                .svea-invoice-fields .vat-number-container {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &.payment-method-sveawebpay_part_pay {
+        &.country-se, &.country-dk {
+            .svea-part-pay-fields .svea-get-address-button {
+                display: inline-block;
+            }
+
+            &.is-pay-page .svea-part-pay-fields .svea-get-address-button {
+                display: none;
+            }
+        }
+
+        &.country-no, &.country-se, &.country-fi, &.country-dk {
+            .svea-part-pay-fields .personal-number-container {
+                display: block;
+            }
+        }
+
+        &.country-nl {
+            .svea-part-pay-fields .initials-container {
+                display: block;
+            }
+        }
+
+        &.country-nl, &.country-de {
+            .svea-part-pay-fields .personal-number-container {
+                display: none;
+            }
+
+            .svea-part-pay-fields .birth-date-container {
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,175 @@
+
+/*====================================================================
+Checkout
+======================================================================*/
+
+div#customer_type input[type="radio"] {
+  width: 20px;
+}
+
+.woocommerce {
+    #payment .payment_methods.methods {
+
+        label[for="payment_method_sveawebpay_invoice"],
+        label[for="payment_method_sveawebpay_card"],
+        label[for="payment_method_sveawebpay_direct_bank"],
+        label[for="payment_method_sveawebpay_part_pay"] {
+            img {
+                // max-width: 150px;
+                max-height: 40px;
+            }
+        }
+
+        // .payment_method_sveawebpay_invoice label[for="payment_method_sveawebpay_invoice"],
+        // .payment_method_sveawebpay_part_pay label[for="payment_method_sveawebpay_part_pay"] {
+        //     img {
+        //         max-width: 100px;
+        //     }
+        // }
+
+        // label[for="payment_method_sveawebpay_direct_bank"] img {
+        //     max-width: 80px;
+        // }
+
+        .payment_method_sveawebpay_card {
+            .card-reservation-fee {
+                font-style: italic;
+                font-size: 13px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+#svea-label-per_nr, #svea-label-org_nr, #sveawebpay-status-msg {
+    display: block;
+}
+
+.hidden-svea-field {
+    display: none !important;
+}
+
+.sveawebpay-status-msg {
+    color: red;
+}
+
+.disabled-input {
+    border-color: #C9C9C9;
+    background-color: #DEDEDE;
+    cursor: not-allowed;
+}
+
+.direct-bank-selector-div {
+    display: block;
+}
+
+.direct-bank-selector-label img {
+    margin-left: -6px; 
+    margin-bottom: -2px; 
+    width: 100px; 
+    height: auto;
+}
+
+.direct-bank-selector-label {
+    opacity: 0.6;
+}
+
+#direct-bank-selector-div-DBSWEDBANKSE img {
+    width: 108px;
+    margin-bottom: 0;
+}
+
+#direct-bank-selector-div-DBSEBSE img {
+    width: 80px;
+}
+
+#direct-bank-selector-div-DBNORDEASE img {
+    width: 125px;
+    margin-left: -15px;
+    margin-bottom: -4px;
+}
+
+#direct-bank-selector-div-BANKAXESS {
+  /* margin-right: 20px; */
+}
+
+#direct-bank-selector-div-BANKAXESS img {
+    width: 50px;
+    margin-bottom: -5px;
+}
+
+#direct-bank-selector-div-DBSHBSE {
+  /* margin-right: 8px; */
+}
+
+#direct-bank-selector-div-DBSHBSE img {
+    width: 104px;
+    margin-bottom: 4px;
+}
+
+input[name="direct-bank-selector"]:checked+label {
+    opacity: 1;
+}
+
+.abbr-svea-checkout {
+    border-bottom: none !important;
+    color: red;
+}
+
+#order_review {
+    position: initial !important;
+}
+
+div.part-pay-campaign-input-container {
+    line-height: 2em;
+}
+
+div.part-pay-campaign-input-container input {
+    margin: 0 1em 0 0;
+}
+
+div.part-pay-campaign-input-container label.part-pay-campaign-input-label {
+    display: inline-block;
+}
+
+/*====================================================================
+Media queries
+======================================================================*/
+@media only screen and (max-width: 528px) {
+    #birth-date-year {
+        margin-right: 55% !important;
+    }
+
+    #birth-date-month {
+        margin-right: 45% !important;
+    }
+
+    .direct-bank-selector-div {
+        display: block;
+    }
+
+    .woocommerce {
+        #payment .payment_methods.methods {
+            label[for="payment_method_sveawebpay_invoice"],
+            label[for="payment_method_sveawebpay_card"],
+            label[for="payment_method_sveawebpay_direct_bank"],
+            label[for="payment_method_sveawebpay_part_pay"] {
+                img {
+                    max-height: 24px;
+                }
+            }
+        }
+
+        //#payment .payment_methods.methods {
+            // .payment_method_sveawebpay_invoice label[for="payment_method_sveawebpay_invoice"],
+            // .payment_method_sveawebpay_card label[for="payment_method_sveawebpay_card"],
+            // .payment_method_sveawebpay_direct_bank label[for="payment_method_sveawebpay_direct_bank"],
+            // .payment_method_sveawebpay_part_pay label[for="payment_method_sveawebpay_part_pay"] {
+            //     img {
+            //         max-width: 30%;
+            //         width: 30%;
+            //     }
+            // }
+        //}
+    }
+}

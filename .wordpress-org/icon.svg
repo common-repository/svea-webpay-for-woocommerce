@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-icon-128x128);
+      }
+
+      .cls-2 {
+        fill: #002c50;
+      }
+
+      .cls-3 {
+        fill: #00acc7;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-icon-128x128">
+      <rect width="128" height="128"/>
+    </clipPath>
+  </defs>
+  <g id="icon-128x128" class="cls-1">
+    <rect class="cls-4" width="128" height="128"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-2" width="128" height="128"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="46.5" cy="46.5" r="46.5" transform="translate(18 18)"/>
+    <path id="Path_13" data-name="Path 13" class="cls-4" d="M32.141,20.708H18.335c-4.961,0-5.608-2.589-5.608-4.314,0-3.883,1.941-5.608,7.118-5.608H46.593V0H18.335C5.824,0,0,5.177,0,16.178c0,10.354,5.608,15.1,17.473,15.1h12.3c4.746,0,6.471,1.079,6.471,4.746,0,3.02-1.079,4.53-7.118,4.53H1.941V51.339H30.631c12.511,0,18.335-4.961,18.335-15.747,0-10.57-4.961-14.884-16.825-14.884" transform="translate(40 38)"/>
+  </g>
+</svg>

@@ -1,0 +1,185 @@
+.svea-fields.svea-fields-admin {
+	&:before {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .customer-type-container {
+        padding-top: 14px;
+    }
+}
+
+// Invoice fields
+.svea-fields.svea-invoice-fields.svea-fields-admin {
+	display: none;
+
+	&.edit-opened {
+		display: block;
+	}
+
+	.svea-get-address-button {
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #27ae60;
+        border-radius: 7px;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        -webkit-transition: background-color 0.2s ease-in-out;
+        -moz-transition: background-color 0.2s ease-in-out;
+        -ms-transition: background-color 0.2s ease-in-out;
+        -o-transition: background-color 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: #219451;
+        }
+
+        &:after {
+            font-family: "Font Awesome 5 Pro";
+            content: '';
+            color: #2ecc71;
+            display: inline-block;
+            font-size: 24px;
+            position: absolute;
+            right: -40px;
+            margin: 0 auto;
+			width: 24px;
+			height: 24px;
+			line-height: 24px;
+			text-align: center;
+			vertical-align: middle;
+			top: 12px;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+            -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+            -ms-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+            -o-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+            transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+        }
+    }
+
+    &.getting-address,
+    &.getting-address-success,
+    &.getting-address-error {
+        .svea-get-address-button:after {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &.getting-address-success .svea-get-address-button:after {
+        content: "\f00c";
+        color: #2ecc71;
+    }
+
+    &.getting-address-error .svea-get-address-button:after {
+        content: "\f00d";
+        color: #e74c3c;
+    }
+
+    &.getting-address .svea-get-address-button:after {
+        color: #2ecc71;
+        content: "\f110";
+        -webkit-animation: fa-spin 1s infinite ease;
+        -moz-animation: fa-spin 1s infinite ease;
+        -ms-animation: fa-spin 1s infinite ease;
+        -o-animation: fa-spin 1s infinite ease;
+        animation: fa-spin 1s infinite ease;
+    }
+
+	.customer-type-container,
+    .organisation-number-container,
+    .personal-number-container,
+    .svea-get-address-button,
+    .birth-date-container,
+    .org-address-selector,
+    .vat-number-container,
+    .initials-container {
+		display: none;
+	}
+
+	&.payment-method-sveawebpay_invoice {
+        .customer-type-container {
+            display: block;
+        }
+
+        &.customer-type-individual {
+            .personal-number-container {
+                display: block;
+            }
+        }
+
+        &.customer-type-company {
+            .organisation-number-container {
+                display: block
+            }
+
+            .org-address-selector {
+                display: block;
+            }
+
+            .org-address-selector:empty {
+                display: none;
+            }
+        }
+
+        &.country-se, &.country-dk {
+            // #billing_address_1, #billing_address_2, #billing_postcode, #billing_city {
+            //     cursor: not-allowed;
+            // }
+
+            &.customer-type-individual, &.customer-type-company {
+                .svea-get-address-button {
+                    display: inline-block;
+                }
+            }
+        }
+
+        &.country-no {
+            &.customer-type-company {
+                .svea-get-address-button {
+                    display: inline-block;
+                }
+            }
+        }
+
+        &.country-nl {
+            &.customer-type-individual {
+                .initials-container {
+                    display: block;
+                }
+            }
+        }
+
+        &.country-nl, &.country-de {
+            .organisation-number-container, 
+            .personal-number-container {
+                display: none;
+            }
+
+            &.customer-type-individual {
+                .birth-date-container {
+                    display: block;
+                }
+            }
+
+            &.customer-type-company {
+                .vat-number-container {
+                    display: block;
+                }
+            }
+        }
+    }
+}

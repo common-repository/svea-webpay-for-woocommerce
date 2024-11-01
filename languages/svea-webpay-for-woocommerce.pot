@@ -1,0 +1,2115 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Svea WebPay for WooCommerce\n"
+"POT-Creation-Date: 2020-08-13 16:19+0200\n"
+"PO-Revision-Date: 2017-08-28 16:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: inc/class-wc-gateway-svea-card.php:56 inc/class-wc-gateway-svea-card.php:311
+msgid "SveaWebPay Card Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:163
+#: inc/class-wc-gateway-svea-card.php:199
+#, php-format
+msgid ""
+"%s will be reserved on your bank account and then refunded after about 5 "
+"banking days. This is required to set up your subscription."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:214
+#: inc/class-wc-gateway-svea-direct-bank.php:216
+#: inc/class-wc-gateway-svea-invoice.php:171
+#: inc/class-wc-gateway-svea-part-pay.php:414
+msgid "Credit via svea"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:227
+msgid "Confirm"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:230
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:233
+#: inc/class-wc-gateway-svea-direct-bank.php:227
+msgid "Credit"
+msgstr ""
+
+#. translators: %s indicates the version of WooCommerce
+#: inc/class-wc-gateway-svea-card.php:293
+#, php-format
+msgid ""
+"Svea WebPay Card only support WooCommerce greater than version 2.0, version "
+"%s is not supported"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:312
+msgid "Process card payments through SveaWebPay."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:339
+#: inc/class-wc-gateway-svea-direct-bank.php:341
+#: inc/class-wc-gateway-svea-invoice.php:650
+#: inc/class-wc-gateway-svea-part-pay.php:571
+msgid "Enable/disable"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:341
+msgid "Enable SveaWebPay Card Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:345
+#: inc/class-wc-gateway-svea-direct-bank.php:347
+#: inc/class-wc-gateway-svea-invoice.php:656
+#: inc/class-wc-gateway-svea-part-pay.php:577
+msgid "Title"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:347
+#: inc/class-wc-gateway-svea-direct-bank.php:349
+#: inc/class-wc-gateway-svea-invoice.php:658
+#: inc/class-wc-gateway-svea-part-pay.php:579
+msgid "This controls the title which the user sees during checkout"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:348
+msgid "Card Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:351
+#: inc/class-wc-gateway-svea-direct-bank.php:353
+#: inc/class-wc-gateway-svea-invoice.php:662
+#: inc/class-wc-gateway-svea-part-pay.php:583
+msgid "Description"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:353
+#: inc/class-wc-gateway-svea-direct-bank.php:355
+#: inc/class-wc-gateway-svea-invoice.php:664
+#: inc/class-wc-gateway-svea-part-pay.php:585
+msgid "This controls the description the user sees during checkout"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:354
+msgid "Pay with creditcard through Svea Ekonomi"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:357
+#: inc/class-wc-gateway-svea-direct-bank.php:359
+msgid "Merchant id"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:359
+#: inc/class-wc-gateway-svea-direct-bank.php:361
+msgid "Your SveaWebPay merchant id"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:363
+#: inc/class-wc-gateway-svea-direct-bank.php:365
+msgid "Secret word"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:365
+#: inc/class-wc-gateway-svea-direct-bank.php:367
+msgid "Your SveaWebPay secret word"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:369
+msgid "Language"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:380
+msgid "The language the pay page will be displayed in"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:384
+#: inc/class-wc-gateway-svea-direct-bank.php:371
+msgid "Test mode"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:386
+msgid "Enable test mode for SveaWebPay Card Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:390
+msgid "Card payment method"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:393
+msgid "Svea CardPay"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:394
+msgid "CertiTrade (Legacy)"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:397
+msgid ""
+"Set the card payment method you use for processing payments. <br />\n"
+"\t\t\t\t\tIf you are using CertiTrade and want to change to Svea CardPay, "
+"please contact Svea before changing this setting."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:404
+#: inc/class-wc-gateway-svea-direct-bank.php:393
+#: inc/class-wc-gateway-svea-invoice.php:1012
+#: inc/class-wc-gateway-svea-part-pay.php:776
+msgid "Debug log"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:406
+#: inc/class-wc-gateway-svea-direct-bank.php:395
+#: inc/class-wc-gateway-svea-invoice.php:1014
+#: inc/class-wc-gateway-svea-part-pay.php:778
+msgid "Enable logging"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:408
+#: inc/class-wc-gateway-svea-direct-bank.php:397
+#: inc/class-wc-gateway-svea-invoice.php:1016
+#: inc/class-wc-gateway-svea-part-pay.php:780
+#, php-format
+msgid "Log Svea events, such as payment requests, inside <code>%s</code>"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:411
+#: inc/class-wc-gateway-svea-direct-bank.php:400
+#: inc/class-wc-gateway-svea-invoice.php:1019
+#: inc/class-wc-gateway-svea-part-pay.php:783
+msgid "Disable automatic order sync"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:414
+#: inc/class-wc-gateway-svea-part-pay.php:786
+msgid ""
+"Disable automatic syncing of orders in WooCommerce to Svea. <br />\n"
+"\t\t\t\t\tIf you enable this option, your refunded orders will not be "
+"refunded in Svea. <br />\n"
+"\t\t\t\t\tYour delivered orders will not be delivered in Svea and your "
+"cancelled orders will not be cancelled in Svea. <br />\n"
+"\t\t\t\t\t<strong>Don't touch this if you don't know what you're doing</"
+"strong>."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:568
+#: inc/class-wc-gateway-svea-direct-bank.php:609
+#, php-format
+msgid "Order was completed by client on IP: %s"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:628
+#: inc/class-wc-gateway-svea-direct-bank.php:658
+#: inc/class-wc-gateway-svea-invoice.php:1104
+msgid "Refund"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:719
+#: inc/class-wc-gateway-svea-card.php:722
+msgid "Reservation"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:775
+#: inc/class-wc-gateway-svea-card.php:875
+#: inc/class-wc-gateway-svea-direct-bank.php:783
+#: inc/class-wc-gateway-svea-invoice.php:1477
+msgid ""
+"An error occurred whilst connecting to Svea. Please contact the store owner "
+"and display this message."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:789
+#: inc/class-wc-gateway-svea-card.php:801
+#: inc/class-wc-gateway-svea-card.php:890
+#: inc/class-wc-gateway-svea-card.php:902
+#: inc/class-wc-gateway-svea-direct-bank.php:794
+#: inc/class-wc-gateway-svea-direct-bank.php:806
+#: inc/class-wc-gateway-svea-invoice.php:1500
+#: inc/class-wc-gateway-svea-invoice.php:1974
+#: inc/class-wc-gateway-svea-part-pay.php:1151
+#: inc/class-wc-gateway-svea-part-pay.php:1173
+msgid ""
+"An unknown error occurred. Please contact the store owner about this issue."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:973
+#: inc/class-wc-gateway-svea-card.php:976
+msgid "Error occurred whilst processing subscription: "
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:1027
+#: inc/class-wc-gateway-svea-card.php:1034
+#: inc/class-wc-gateway-svea-invoice.php:2027
+#: inc/class-wc-gateway-svea-invoice.php:2034
+#: inc/class-wc-gateway-svea-part-pay.php:1225
+#: inc/class-wc-gateway-svea-part-pay.php:1232
+msgid "The order has been cancelled in Svea."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:1064
+#: inc/class-wc-gateway-svea-direct-bank.php:848
+#, php-format
+msgid "Credited order #%s"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:1089
+#: inc/class-wc-gateway-svea-card.php:1094
+#: inc/class-wc-gateway-svea-direct-bank.php:874
+#: inc/class-wc-gateway-svea-direct-bank.php:879
+msgid "All items have been credited in Svea."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:1128
+msgid "Order has already been delivered"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-card.php:1141
+#: inc/class-wc-gateway-svea-card.php:1146
+#: inc/class-wc-gateway-svea-card.php:1175
+#: inc/class-wc-gateway-svea-card.php:1180
+#: inc/class-wc-gateway-svea-invoice.php:2320
+#: inc/class-wc-gateway-svea-invoice.php:2325
+#: inc/class-wc-gateway-svea-part-pay.php:1270
+#: inc/class-wc-gateway-svea-part-pay.php:1275
+msgid "All items have been delivered in Svea."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:47
+#: inc/class-wc-gateway-svea-direct-bank.php:318
+msgid "SveaWebPay Direct Bank Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:79
+#: inc/class-wc-gateway-svea-direct-bank.php:381
+msgid "Direct bank payments, Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:86
+#: inc/class-wc-gateway-svea-direct-bank.php:382
+msgid "Direct bank payment, Nordea, Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:93
+#: inc/class-wc-gateway-svea-direct-bank.php:383
+msgid "Direct bank payment, private, SEB, Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:100
+#: inc/class-wc-gateway-svea-direct-bank.php:384
+msgid "Direct bank payment, company, SEB, Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:107
+#: inc/class-wc-gateway-svea-direct-bank.php:385
+msgid "Direct bank payment, Handelsbanken, Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:114
+#: inc/class-wc-gateway-svea-direct-bank.php:386
+msgid "Direct bank payment, Swedbank, Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:121
+msgid "PayPal"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:128
+#: inc/class-wc-gateway-svea-direct-bank.php:388
+msgid "Card payment with Dankort, Skrill"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:197
+msgid "Payment Method"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:319
+msgid "Process direct bank payments through SveaWebPay."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:343
+msgid "Enable SveaWebPay Direct Bank Payments"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:350
+msgid "Direct Bank Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:356
+msgid "Pay with direct bank payments through Svea Ekonomi"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:373
+msgid "Enable test mode for SveaWebPay Direct Bank Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:377
+msgid "Enabled direct bank transfer methods"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:387
+msgid "Paypal"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:403
+msgid ""
+"Disable automatic syncing of orders in WooCommerce to Svea. <br />\n"
+"                        If you enable this option, your refunded orders will "
+"not be refunded in Svea. <br />\n"
+"                        Your delivered orders will not be delivered in Svea "
+"and your cancelled orders will not be cancelled in Svea. <br />\n"
+"                        <strong>Don't touch this if you don't know what "
+"you're doing</strong>."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:435
+msgid "Please enter direct bank payment method."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:442
+msgid "That payment method is not supported in your country."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-direct-bank.php:694
+msgid "Direct bank payment method must be selected."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:173
+msgid "Discount"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:223
+msgid "Fee for invoice"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:274
+msgid "Shipping"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:294
+msgid ""
+"Transaction was rejected by the bank. Please try again with another payment "
+"method."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:296
+msgid ""
+"Transaction cancelled. You can choose the same payment method again to "
+"process your order by selecting it below and continuing."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:298
+msgid "The selected currency is not supported for card payments."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:300
+msgid "The card type is not configured for this merchant."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:305
+msgid ""
+"Unfortunately your purchase could not be carried out since the credit check "
+"was rejected. Please try again with another payment method."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:312
+msgid ""
+"Unfortunately we could not find your customer information. Please check the "
+"entered data and try to make a purchase again."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-helper.php:314
+msgid ""
+"There was a problem with processing your order, please select another "
+"payment method and try again."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:59
+#: inc/class-wc-gateway-svea-invoice.php:617
+msgid "SveaWebPay Invoice Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:172
+msgid "Deliver via svea"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:188
+#: inc/class-wc-gateway-svea-part-pay.php:426
+msgid "Deliver order"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:191
+#: inc/class-wc-gateway-svea-part-pay.php:429
+msgid "Cancel order"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:194
+msgid "Credit invoice"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:356
+msgid "Please select either company or individual customer type."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:369
+#: inc/class-wc-gateway-svea-invoice.php:372
+#: inc/class-wc-gateway-svea-invoice.php:452
+#: inc/class-wc-gateway-svea-invoice.php:455
+#: inc/class-wc-gateway-svea-invoice.php:474
+#: inc/class-wc-gateway-svea-invoice.php:515
+#: inc/class-wc-gateway-svea-invoice.php:1584
+#: inc/class-wc-gateway-svea-invoice.php:1587
+msgid "<strong>Organisational number</strong> is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:380
+#: inc/class-wc-gateway-svea-invoice.php:504
+#: inc/class-wc-gateway-svea-invoice.php:523
+#: inc/class-wc-gateway-svea-invoice.php:1592
+#: inc/class-wc-gateway-svea-part-pay.php:832
+#: inc/class-wc-gateway-svea-part-pay.php:880
+#: inc/class-wc-gateway-svea-part-pay.php:893
+msgid "<strong>Personal number</strong> is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:387
+#: inc/class-wc-gateway-svea-invoice.php:508
+#: inc/class-wc-gateway-svea-invoice.php:527
+#: inc/class-wc-gateway-svea-invoice.php:551
+#: inc/class-wc-gateway-svea-invoice.php:571
+#: inc/class-wc-gateway-svea-invoice.php:1596
+#: inc/class-wc-gateway-svea-invoice.php:1622
+#: inc/class-wc-gateway-svea-invoice.php:1643
+msgid "Invalid customer type"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:404
+msgid "We could not find your address in our database."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:428
+msgid "The <strong>Organisational number</strong> is not valid."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:430
+#: inc/class-wc-gateway-svea-part-pay.php:864
+msgid "The <strong>Personal number</strong> is not valid."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:436
+#: inc/class-wc-gateway-svea-invoice.php:499
+#: inc/class-wc-gateway-svea-part-pay.php:868
+msgid ""
+"An unknown error occurred while trying to lookup your Organisational number."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:438
+#: inc/class-wc-gateway-svea-part-pay.php:870
+msgid "An unknown error occurred while trying to lookup your Personal number."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:440
+#: inc/class-wc-gateway-svea-part-pay.php:872
+msgid "An unknown error occurred."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:518
+msgid "The <strong>Organisational number</strong> entered is not correct."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:534
+#: inc/class-wc-gateway-svea-invoice.php:558
+#: inc/class-wc-gateway-svea-invoice.php:1603
+#: inc/class-wc-gateway-svea-invoice.php:1629
+msgid "<strong>VAT number</strong> is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:538
+#: inc/class-wc-gateway-svea-invoice.php:562
+#: inc/class-wc-gateway-svea-invoice.php:1608
+#: inc/class-wc-gateway-svea-invoice.php:1634
+msgid "<strong>Company Name</strong> is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:543
+#: inc/class-wc-gateway-svea-invoice.php:1613
+#: inc/class-wc-gateway-svea-part-pay.php:903
+msgid "<strong>Initials</strong> is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:547
+#: inc/class-wc-gateway-svea-invoice.php:567
+#: inc/class-wc-gateway-svea-invoice.php:1618
+#: inc/class-wc-gateway-svea-invoice.php:1639
+#: inc/class-wc-gateway-svea-part-pay.php:908
+#: inc/class-wc-gateway-svea-part-pay.php:915
+msgid "<strong>Date of birth</strong> is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:618
+msgid "Process invoice payments through SveaWebPay."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:626
+msgid "Get Address Shortcode"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:628
+msgid ""
+"If you want to move the Get-Address box on the checkout page you can do so "
+"with the shortcode"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:631
+msgid ""
+"By using the shortcode on the checkout page, you automatically disable the "
+"Get-Address box in the gateways. You can only use the shortcode if you have "
+"a valid Svea Invoice account."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:634
+msgid ""
+"The shortcode is usable for the countries in which you are using Svea "
+"Invoice, independentenly of the payment method."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:637
+msgid "Sveawebpay does not support your currency and or country."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:652
+msgid "Enable SveaWebPay Invoice Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:659
+msgid "Invoice 14 days"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:665
+msgid "Pay with invoice through Svea Ekonomi"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:668
+#: inc/class-wc-gateway-svea-part-pay.php:589
+msgid "Enabled countries"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:670
+msgid ""
+"Choose the countries you want SveaWebPay Invoice Payment to be active in"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:672
+#: inc/class-wc-gateway-svea-part-pay.php:593
+msgid "Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:673
+#: inc/class-wc-gateway-svea-part-pay.php:594
+msgid "Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:674
+#: inc/class-wc-gateway-svea-part-pay.php:595
+msgid "Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:675
+#: inc/class-wc-gateway-svea-part-pay.php:596
+msgid "Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:676
+#: inc/class-wc-gateway-svea-part-pay.php:597
+msgid "Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:677
+#: inc/class-wc-gateway-svea-part-pay.php:598
+msgid "Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:682
+#: inc/class-wc-gateway-svea-part-pay.php:620
+msgid "Same shipping address as billing address"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:684
+#: inc/class-wc-gateway-svea-part-pay.php:622
+msgid "If checked, billing address will override the shipping address"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:689
+#: inc/class-wc-gateway-svea-part-pay.php:627
+msgid "Test mode Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:691
+#: inc/class-wc-gateway-svea-part-pay.php:629
+msgid "Enable/disable test mode in Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:692
+#: inc/class-wc-gateway-svea-invoice.php:746
+#: inc/class-wc-gateway-svea-invoice.php:800
+#: inc/class-wc-gateway-svea-invoice.php:854
+#: inc/class-wc-gateway-svea-invoice.php:908
+#: inc/class-wc-gateway-svea-invoice.php:962
+msgid "When testing out the gateway, this option should be enabled"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:696
+msgid "Distribution type Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:698
+msgid ""
+"This controls which distribution type you will be using for invoices in "
+"Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:700
+#: inc/class-wc-gateway-svea-invoice.php:754
+#: inc/class-wc-gateway-svea-invoice.php:808
+#: inc/class-wc-gateway-svea-invoice.php:862
+#: inc/class-wc-gateway-svea-invoice.php:916
+#: inc/class-wc-gateway-svea-invoice.php:970
+msgid "Post"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:701
+#: inc/class-wc-gateway-svea-invoice.php:755
+#: inc/class-wc-gateway-svea-invoice.php:809
+#: inc/class-wc-gateway-svea-invoice.php:863
+#: inc/class-wc-gateway-svea-invoice.php:917
+#: inc/class-wc-gateway-svea-invoice.php:971
+msgid "E-mail"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:706
+#: inc/class-wc-gateway-svea-part-pay.php:633
+msgid "Username Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:708
+msgid "Username for invoice payments in Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:712
+#: inc/class-wc-gateway-svea-part-pay.php:639
+msgid "Password Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:714
+msgid "Password for invoice payments in Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:718
+#: inc/class-wc-gateway-svea-part-pay.php:645
+msgid "Client number Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:720
+msgid "Client number for invoice payments in Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:724
+msgid "Invoice fee label Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:726
+msgid "Label for the invoice fee for Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:730
+msgid "Invoice fee Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:732
+msgid "Invoice fee for Denmark, this should be entered exclusive of tax"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:736
+msgid "Invoice fee taxable Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:738
+msgid "If the invoice fee is taxable in Denmark, check the box."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:743
+#: inc/class-wc-gateway-svea-part-pay.php:652
+msgid "Test mode Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:745
+#: inc/class-wc-gateway-svea-part-pay.php:654
+msgid "Enable/disable test mode in Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:750
+msgid "Distribution type Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:752
+msgid ""
+"This controls which distribution type you will be using for invoices in "
+"Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:760
+#: inc/class-wc-gateway-svea-part-pay.php:658
+msgid "Username Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:762
+msgid "Username for invoice payments in Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:766
+#: inc/class-wc-gateway-svea-part-pay.php:664
+msgid "Password Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:768
+msgid "Password for invoice payments in Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:772
+#: inc/class-wc-gateway-svea-part-pay.php:670
+msgid "Client number Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:774
+msgid "Client number for invoice payments in Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:778
+msgid "Invoice fee label Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:780
+msgid "Label for the invoice fee for Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:784
+msgid "Invoice fee Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:786
+msgid "Invoice fee for Germany, this should be entered exclusive of tax"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:790
+msgid "Invoice fee taxable Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:792
+msgid "If the invoice fee is taxable in Germany, check the box."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:797
+#: inc/class-wc-gateway-svea-part-pay.php:677
+msgid "Test mode Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:799
+#: inc/class-wc-gateway-svea-part-pay.php:679
+msgid "Enable/disable test mode in Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:804
+msgid "Distribution type Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:806
+msgid ""
+"This controls which distribution type you will be using for invoices in "
+"Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:814
+#: inc/class-wc-gateway-svea-part-pay.php:683
+msgid "Username Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:816
+msgid "Username for invoice payments in Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:820
+#: inc/class-wc-gateway-svea-part-pay.php:689
+msgid "Password Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:822
+msgid "Password for invoice payments in Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:826
+#: inc/class-wc-gateway-svea-part-pay.php:695
+msgid "Client number Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:828
+msgid "Client number for invoice payments in Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:832
+msgid "Invoice fee label Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:834
+msgid "Label for the invoice fee for Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:838
+msgid "Invoice fee Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:840
+msgid "Invoice fee for Finland, this should be entered exclusive of tax"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:844
+msgid "Invoice fee taxable Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:846
+msgid "If the invoice fee is taxable in Finland, check the box."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:851
+#: inc/class-wc-gateway-svea-part-pay.php:702
+msgid "Test mode Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:853
+#: inc/class-wc-gateway-svea-part-pay.php:704
+msgid "Enable/disable test mode in Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:858
+msgid "Distribution type Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:860
+msgid ""
+"This controls which distribution type you will be using for invoices in "
+"Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:868
+#: inc/class-wc-gateway-svea-part-pay.php:708
+msgid "Username Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:870
+msgid "Username for invoice payments in Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:874
+#: inc/class-wc-gateway-svea-part-pay.php:714
+msgid "Password Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:876
+msgid "Password for invoice payments in Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:880
+#: inc/class-wc-gateway-svea-part-pay.php:720
+msgid "Client number Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:882
+msgid "Client number for invoice payments in Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:886
+msgid "Invoice fee label Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:888
+msgid "Label for the invoice fee for Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:892
+msgid "Invoice fee Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:894
+msgid "Invoice fee for Netherlands, this should be entered exclusive of tax"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:898
+msgid "Invoice fee taxable Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:900
+msgid "If the invoice fee is taxable in Netherlands, check the box."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:905
+#: inc/class-wc-gateway-svea-part-pay.php:727
+msgid "Test mode Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:907
+#: inc/class-wc-gateway-svea-part-pay.php:729
+msgid "Enable/disable test mode in Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:912
+msgid "Distribution type Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:914
+msgid ""
+"This controls which distribution type you will be using for invoices in "
+"Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:922
+#: inc/class-wc-gateway-svea-part-pay.php:733
+msgid "Username Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:924
+msgid "Username for invoice payments in Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:928
+#: inc/class-wc-gateway-svea-part-pay.php:739
+msgid "Password Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:930
+msgid "Password for invoice payments in Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:934
+#: inc/class-wc-gateway-svea-part-pay.php:745
+msgid "Client number Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:936
+msgid "Client number for invoice payments in Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:940
+msgid "Invoice fee label Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:942
+msgid "Label for the invoice fee for Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:946
+msgid "Invoice fee Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:948
+msgid "Invoice fee for Norway, this should be entered exclusive of tax"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:952
+msgid "Invoice fee taxable Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:954
+msgid "If the invoice fee is taxable in Norway, check the box."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:959
+#: inc/class-wc-gateway-svea-part-pay.php:752
+msgid "Test mode Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:961
+#: inc/class-wc-gateway-svea-part-pay.php:754
+msgid "Enable/disable test mode in Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:966
+msgid "Distribution type Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:968
+msgid ""
+"This controls which distribution type you will be using for invoices in "
+"Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:976
+#: inc/class-wc-gateway-svea-part-pay.php:758
+msgid "Username Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:978
+msgid "Username for invoice payments in Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:982
+#: inc/class-wc-gateway-svea-part-pay.php:764
+msgid "Password Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:984
+msgid "Password for invoice payments in Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:988
+#: inc/class-wc-gateway-svea-part-pay.php:770
+msgid "Client number Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:990
+msgid "Client number for invoice payments in Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:994
+msgid "Invoice fee label Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:996
+msgid "Label for the invoice fee for Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1000
+msgid "Invoice fee Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1002
+msgid "Invoice fee for Sweden, this should be entered exclusive of tax"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1006
+msgid "Invoice fee taxable Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1008
+msgid "If the invoice fee is taxable in Sweden, check the box."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1022
+msgid ""
+"Disable automatic syncing of orders in WooCommerce to Svea. <br />\n"
+"\t\t\t\t\t\tIf you enable this option, your refunded orders will not be "
+"refunded in Svea. <br />\n"
+"\t\t\t\t\t\tYour delivered orders will not be delivered in Svea and your "
+"cancelled orders will not be cancelled in Svea. <br />\n"
+"\t\t\t\t\t\t<strong>Don't touch this if you don't know what you're doing</"
+"strong>."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1096
+msgid "Couldn't find any order rows in Svea"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1102
+msgid "You have to deliver the order at Svea first"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1189
+msgid "Organisation number is required."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1215
+#: inc/class-wc-gateway-svea-part-pay.php:1042
+msgid "Personal number is required."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1231
+msgid "Personal/organisation number is required."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1262
+#: inc/class-wc-gateway-svea-invoice.php:1339
+msgid "VAT number is required."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1279
+#: inc/class-wc-gateway-svea-part-pay.php:1053
+msgid "Initials is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1286
+#: inc/class-wc-gateway-svea-invoice.php:1357
+#: inc/class-wc-gateway-svea-part-pay.php:1060
+#: inc/class-wc-gateway-svea-part-pay.php:1102
+msgid "Birth date year is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1293
+#: inc/class-wc-gateway-svea-invoice.php:1365
+#: inc/class-wc-gateway-svea-part-pay.php:1066
+#: inc/class-wc-gateway-svea-part-pay.php:1108
+msgid "Birth date month is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1300
+#: inc/class-wc-gateway-svea-invoice.php:1372
+#: inc/class-wc-gateway-svea-part-pay.php:1073
+#: inc/class-wc-gateway-svea-part-pay.php:1115
+msgid "Birth date day is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1409
+msgid "Country is not supported for invoice payments."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1493
+#: inc/class-wc-gateway-svea-part-pay.php:1165
+#, php-format
+msgid "Customer received error: %s"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1948
+msgid "Error occurred whilst processing subscription:"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:1966
+#: inc/class-wc-gateway-svea-invoice.php:1973
+#, php-format
+msgid "Error occurred whilst processing subscription: %s"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:2075
+msgid "An invoice could not be found, deliver the order first"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:2126
+#: inc/class-wc-gateway-svea-invoice.php:2134
+#, php-format
+msgid "%d item has been credited in Svea."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:2141
+#: inc/class-wc-gateway-svea-invoice.php:2149
+#, php-format
+msgid "%d items have been credited in Svea."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:2222
+msgid "There are no order rows to deliver"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:2284
+#: inc/class-wc-gateway-svea-invoice.php:2292
+#, php-format
+msgid "%d item has been delivered in Svea."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:2299
+#: inc/class-wc-gateway-svea-invoice.php:2307
+#, php-format
+msgid "%d items have been delivered in Svea."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-invoice.php:2331
+msgid "Thank you for paying with SveaWebPay Invoice Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:51
+#: inc/class-wc-gateway-svea-part-pay.php:961
+msgid "SveaWebPay Part Payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:178
+#, php-format
+msgid "Part pay from %s/month"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:353
+#, php-format
+msgid "Buy now, pay %1$s in %2$s"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:362
+#: inc/class-wc-gateway-svea-part-pay.php:377
+msgid "initial fee"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:370
+msgid "month"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:388 partials/part-payment-plans.php:3
+#: svea-webpay-for-woocommerce.php:513 svea-webpay-for-woocommerce.php:590
+msgid "Part Payment Plans"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:404
+msgid "There are no payment plans available for your order total."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:573
+msgid "Enable SveaWebPay Part Payments"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:580
+msgid "Part payment"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:586
+msgid "Pay with part payments through Svea Ekonomi"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:591
+msgid "Choose the countries you want SveaWebPay Part Payment to be enabled in"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:603
+msgid "Display product part payment widget"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:605
+msgid ""
+"Display a widget on the product page which suggests a part payment plan for "
+"the customer to use to buy the product."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:609
+msgid "Product part payment widget position"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:611
+msgid ""
+"The position of the part payment widget on the product page. Is only "
+"displayed if the widget is activated."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:614
+msgid "Between price and excerpt"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:615
+msgid "Between excerpt and add to cart"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:616
+msgid "Between add to cart and product meta"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:635
+msgid "Username for part payments in Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:641
+msgid "Password for part payments in Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:647
+msgid "Client number for part payments in Denmark"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:660
+msgid "Username for part payments in Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:666
+msgid "Password for part payments in Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:672
+msgid "Client number for part payments in Germany"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:685
+msgid "Username for part payments in Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:691
+msgid "Password for part payments in Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:697
+msgid "Client number for part payments in Finland"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:710
+msgid "Username for part payments in Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:716
+msgid "Password for part payments in Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:722
+msgid "Client number for part payments in Netherlands"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:735
+msgid "Username for part payments in Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:741
+msgid "Password for part payments in Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:747
+msgid "Client number for part payments in Norway"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:760
+msgid "Username for part payments in Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:766
+msgid "Password for part payments in Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:772
+msgid "Client number for part payments in Sweden"
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:822
+msgid "<strong>Part Payment Plan</strong> is a required field."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:883
+msgid "A <strong>Personal number</strong> can only contain digits."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:886
+#: inc/class-wc-gateway-svea-part-pay.php:896
+msgid "The <strong>Personal number</strong> entered is not correct."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:962
+msgid "Process part payments through SveaWebPay."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:971
+msgid "SveaWebPay Part Payment does not support your currency and/or country."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:1005
+msgid "Part payment plan must be selected."
+msgstr ""
+
+#: inc/class-wc-gateway-svea-part-pay.php:1152
+#, php-format
+msgid "Error occurred whilst processing payment: %s"
+msgstr ""
+
+#: partials/checkout.php:14 partials/invoice/admin-subscription.php:12
+#: partials/invoice/checkout.php:21
+msgid "- Choose customer type -"
+msgstr ""
+
+#: partials/checkout.php:15 partials/invoice/admin-subscription.php:13
+#: partials/invoice/checkout.php:23 partials/shortcodes/get-address.php:10
+msgid "Company"
+msgstr ""
+
+#: partials/checkout.php:16 partials/invoice/admin-subscription.php:14
+#: partials/invoice/checkout.php:22 partials/shortcodes/get-address.php:6
+msgid "Individual"
+msgstr ""
+
+#: partials/checkout.php:18 partials/invoice/admin-subscription.php:16
+#: partials/invoice/checkout.php:25
+msgid "Customer Type"
+msgstr ""
+
+#: partials/checkout.php:32 partials/invoice/admin-subscription.php:30
+#: partials/invoice/checkout.php:53 partials/shortcodes/get-address.php:16
+msgid "Organisation number"
+msgstr ""
+
+#: partials/checkout.php:45 partials/invoice/admin-subscription.php:44
+#: partials/invoice/checkout.php:76 partials/part-pay/checkout.php:23
+#: partials/shortcodes/get-address.php:25
+msgid "Personal number"
+msgstr ""
+
+#: partials/checkout.php:51 partials/invoice/admin-subscription.php:51
+#: partials/invoice/checkout.php:91 partials/part-pay/checkout.php:38
+#: partials/shortcodes/get-address.php:29
+msgid "Get address"
+msgstr ""
+
+#: partials/checkout.php:67 partials/invoice/admin-subscription.php:67
+#: partials/invoice/checkout.php:117
+msgid "VAT number"
+msgstr ""
+
+#: partials/checkout.php:73 partials/invoice/admin-subscription.php:74
+#: partials/invoice/checkout.php:124 partials/part-pay/checkout.php:43
+msgid "Date of birth"
+msgstr ""
+
+#: partials/checkout.php:88 partials/invoice/admin-subscription.php:89
+#: partials/invoice/checkout.php:139 partials/part-pay/checkout.php:58
+msgid "Year"
+msgstr ""
+
+#: partials/checkout.php:94 partials/invoice/admin-subscription.php:96
+#: partials/invoice/checkout.php:146 partials/part-pay/checkout.php:65
+msgid "January"
+msgstr ""
+
+#: partials/checkout.php:95 partials/invoice/admin-subscription.php:97
+#: partials/invoice/checkout.php:147 partials/part-pay/checkout.php:66
+msgid "February"
+msgstr ""
+
+#: partials/checkout.php:96 partials/invoice/admin-subscription.php:98
+#: partials/invoice/checkout.php:148 partials/part-pay/checkout.php:67
+msgid "Mars"
+msgstr ""
+
+#: partials/checkout.php:97 partials/invoice/admin-subscription.php:99
+#: partials/invoice/checkout.php:149 partials/part-pay/checkout.php:68
+msgid "April"
+msgstr ""
+
+#: partials/checkout.php:98 partials/invoice/admin-subscription.php:100
+#: partials/invoice/checkout.php:150 partials/part-pay/checkout.php:69
+msgid "May"
+msgstr ""
+
+#: partials/checkout.php:99 partials/invoice/admin-subscription.php:101
+#: partials/invoice/checkout.php:151 partials/part-pay/checkout.php:70
+msgid "June"
+msgstr ""
+
+#: partials/checkout.php:100 partials/invoice/admin-subscription.php:102
+#: partials/invoice/checkout.php:152 partials/part-pay/checkout.php:71
+msgid "July"
+msgstr ""
+
+#: partials/checkout.php:101 partials/invoice/admin-subscription.php:103
+#: partials/invoice/checkout.php:153 partials/part-pay/checkout.php:72
+msgid "August"
+msgstr ""
+
+#: partials/checkout.php:102 partials/invoice/admin-subscription.php:104
+#: partials/invoice/checkout.php:154 partials/part-pay/checkout.php:73
+msgid "September"
+msgstr ""
+
+#: partials/checkout.php:103 partials/invoice/admin-subscription.php:105
+#: partials/invoice/checkout.php:155 partials/part-pay/checkout.php:74
+msgid "October"
+msgstr ""
+
+#: partials/checkout.php:104 partials/invoice/admin-subscription.php:106
+#: partials/invoice/checkout.php:156 partials/part-pay/checkout.php:75
+msgid "November"
+msgstr ""
+
+#: partials/checkout.php:105 partials/invoice/admin-subscription.php:107
+#: partials/invoice/checkout.php:157 partials/part-pay/checkout.php:76
+msgid "December"
+msgstr ""
+
+#: partials/checkout.php:114 partials/invoice/admin-subscription.php:116
+#: partials/invoice/checkout.php:166 partials/part-pay/checkout.php:85
+msgid "Month"
+msgstr ""
+
+#: partials/checkout.php:127 partials/invoice/admin-subscription.php:130
+#: partials/invoice/checkout.php:180 partials/part-pay/checkout.php:99
+msgid "Day"
+msgstr ""
+
+#: partials/checkout.php:141 partials/invoice/admin-subscription.php:145
+#: partials/invoice/checkout.php:197 partials/part-pay/checkout.php:116
+msgid "Initials"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:73 svea-webpay-for-woocommerce.php:296
+msgid ""
+"WooCommerce Svea WebPay Gateway has been deactivated because WooCommerce is "
+"not installed. Please install WooCommerce and re-activate."
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:82
+msgid ""
+"Supercharge your WooCommerce Store with powerful features to pay via Svea "
+"Ekonomi Creditcard, Direct Bank Payment, Invoice and Part Payment."
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:232
+msgid ""
+"The PHP Module <strong>Soap</strong> is not enabled. Svea WebPay requires "
+"this module to be enabled for it to function properly. Talk to your web host "
+"and make sure it is enabled."
+msgstr ""
+
+#. translators: %1$s is the current PHP version, %2$s is the supported PHP-version
+#: svea-webpay-for-woocommerce.php:248
+#, php-format
+msgid ""
+"Your PHP version is <strong>%1$s</strong>, lower than the supported version "
+"for Svea WebPay for WooCommerce, <strong>%2$s</strong>. The integration "
+"might not work as expected."
+msgstr ""
+
+#. translators: %1$s is the current PHP version, %2$s is the supported PHP-version
+#: svea-webpay-for-woocommerce.php:260
+#, php-format
+msgid ""
+"Your WooCommerce version is <strong>%1$s</strong>, lower than the supported "
+"version for Svea WebPay for WooCommerce, <strong>%2$s</strong>. The "
+"integration might not work as expected."
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:269
+msgid ""
+"Version 3.0.0 of WooCommerce brought breaking changes and any version lower "
+"than that will not work with this version of the Svea WebPay module. The "
+"module has been deactivated. Please upgrade WooCommerce and activate the "
+"gateway again."
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:309
+msgid ""
+"WooCommerce SveaWebPay Payment Gateway has now been activated, you can "
+"configure the different gateways"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:366
+msgid "Settings"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:436
+msgid "Delivered in Svea"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:438
+msgid "Credited in Svea"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:508
+#, php-format
+msgid "Are you sure you want to credit %d items?"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:509
+#, php-format
+msgid "Are you sure you want to deliver %d items?"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:510
+msgid "You have not selected any items yet."
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:511 svea-webpay-for-woocommerce.php:588
+msgid "There are no available payment plans for this country and order total."
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:512 svea-webpay-for-woocommerce.php:589
+msgid "Your address was found."
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:514 svea-webpay-for-woocommerce.php:591
+msgid "Company Name"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:515 svea-webpay-for-woocommerce.php:592
+msgid "Invoice fee"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:516 svea-webpay-for-woocommerce.php:593
+msgid "Includes"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:517 svea-webpay-for-woocommerce.php:594
+msgid "VAT"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:518 svea-webpay-for-woocommerce.php:595
+msgid "An error occurred whilst getting your address. Please try again later."
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:820
+#, php-format
+msgid "Delivered %s order"
+msgid_plural "Delivered %s orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: svea-webpay-for-woocommerce.php:824
+msgid "No orders were delivered"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:863
+#, php-format
+msgid "Cancelled %s order"
+msgid_plural "Cancelled %s orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: svea-webpay-for-woocommerce.php:867
+msgid "No orders were cancelled"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:906
+#, php-format
+msgid "Credited %s order"
+msgid_plural "Credited %s orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: svea-webpay-for-woocommerce.php:910
+msgid "No orders were credited"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:941
+msgid "SveaWebPay transaction id: "
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:975
+msgid "Svea Webpay Actions"
+msgstr ""
+
+#: svea-webpay-for-woocommerce.php:1053
+msgid "Svea Order Id"
+msgstr ""
+
+#~ msgid "Please enter payment method."
+#~ msgstr "Välj betalningsmetod."
+
+#~ msgid "Transaction was rejected by the bank."
+#~ msgstr "Transaktionen medgavs inte av banken."
+
+#~ msgid ""
+#~ "Transaction cancelled. You can choose direct bank payment again to "
+#~ "process your order by selecting it below and continuing."
+#~ msgstr ""
+#~ "Transaktion avbruten. Du kan genomföra din order med direktbankbetalning "
+#~ "på nytt genom att välja det nedan och fortsätta."
+
+#~ msgid ""
+#~ "Transaction cancelled. You can choose card payment again to process your "
+#~ "order by selecting it below and continuing."
+#~ msgstr ""
+#~ "Transaktion avbruten. Du kan genomföra din order med kortbetalning på "
+#~ "nytt genom att välja det nedan och fortsätta."
+
+#~ msgid ""
+#~ "Svea WebPay Card doesn't support the currency %s. The supported "
+#~ "currencies are: %s"
+#~ msgstr ""
+#~ "Svea WebPay Kort stöder inte valutan %s. De valutor som stöds är: %s"
+
+#~ msgid ""
+#~ "Svea WebPay Card doesn't support the country %s. The supported countries "
+#~ "are: %s"
+#~ msgstr "Svea WebPay Kort stöder inte landet %s. De länder som stöds är: %s"
+
+#~ msgid "There are no order rows to credit"
+#~ msgstr "Det finns inga orderrader att kreditera"
+
+#~ msgid ""
+#~ "%s %s will be reserved on your bank account and then refunded after about "
+#~ "5 banking days. This is required to set up your subscription."
+#~ msgstr ""
+#~ "%s %s kommer att reserveras på ditt bankkonto och sedan betalas tillbaka "
+#~ "efter ungefär 5 bankdagar. Detta krävs för att sätta upp din "
+#~ "prenumeration."
+
+#~ msgid "Order is complete"
+#~ msgstr "Ordern är genomförd"
+
+#~ msgid "Direct bank payment method must me selected."
+#~ msgstr "Direktbanksbetalningsmetod måste vara vald."
+
+#~ msgid ""
+#~ "Disable automatic syncing of orders in WooCommerce to Svea. <br />\n"
+#~ "\t\t\t\t\t\t\tIf you enable this option, your refunded orders will not be "
+#~ "refunded in Svea. <br />\n"
+#~ "\t\t\t\t\t\t\tYour delivered orders will not be delivered in Svea and "
+#~ "your cancelled orders will not be cancelled in Svea. <br />\n"
+#~ "\t\t\t\t\t\t\t<strong>Don't touch this if you don't know what you're "
+#~ "doing</strong>."
+#~ msgstr ""
+#~ "Inaktivera automatisk synkning av ordrar i WooCommerce till Svea. <br />\n"
+#~ "\t\t\t\t\t\t\tOm du aktiverar denna inställning kommer dina återbetalda "
+#~ "ordrar inte att bli återbetalda i Svea. <br />\n"
+#~ "\t\t\t\t\t\t\tDina levererade ordrar kommer inte att levereras i Svea och "
+#~ "dina avbrutna ordrar kommer inte att annulleras/makuleras i Svea. <br />\n"
+#~ "\t\t\t\t\t\t\t<strong>Rör inte denna inställning om du inte vet vad du "
+#~ "håller på med</strong>."
+
+#~ msgid ""
+#~ "The shortcode is usable for the countries in whick you are using Svea "
+#~ "Invoice, independentenly of the payment method."
+#~ msgstr "Shortcoden "
+
+#~ msgid "Debug"
+#~ msgstr "Felsökning"
+
+#~ msgid "Enable debug mode for SveaWebPay Direct Bank Payment"
+#~ msgstr "Aktivera felsökningsläge för SveaWebPay Direktbanksbetalningar"
+
+#~ msgid "Enable debug mode for SveaWebPay Card Payment"
+#~ msgstr "Aktivera felsökning för SveaWebPay Kortbetalning"
+
+#~ msgid ""
+#~ "The PHP Module <strong>Soap</strong> is not enabled. Svea WebPay requires "
+#~ "this module to be enabled for it to function properly. Talk to your web "
+#~ "host and make sure it is enabled. "
+#~ msgstr "PHP-modulen <strong>Soap</strong> är inte "
+
+#~ msgid "%s - pay %s / %s"
+#~ msgstr "%s - betala %s / %s"
+
+#~ msgid "%s (%s per payment)"
+#~ msgstr "%s (%s per betalning)"
+
+#~ msgid "Shipping fee"
+#~ msgstr "Leveransavgift"
+
+#~ msgid "Pay with creditcard through SveaWebPay"
+#~ msgstr "Betala med kreditkort genom SveaWebPay "
+
+#~ msgid "Pay with direct bank payments through SveaWebPay"
+#~ msgstr "Betala med direktbanksbetalningar genom SveaWebPay"
+
+#~ msgid "Pay with invoice through SveaWebPay"
+#~ msgstr "Betala med faktura genom SveaWebPay"
+
+#~ msgid "Pay with part payments through SveaWebPay"
+#~ msgstr "Delbetala genom SveaWebPay"
+
+#~ msgid "Order needs manual review"
+#~ msgstr "Ordern behöver manuell kontroll"
+
+#~ msgid "Organisational number"
+#~ msgstr "Organisationsnummer"
+
+#~ msgid "Deliver"
+#~ msgstr "Leverera order"
+
+#~ msgid "Deliver in Svea"
+#~ msgstr "Leverera i Svea"
+
+#~ msgid "Invoice fee for Denmark"
+#~ msgstr "Fakturaavgift för Danmark"
+
+#~ msgid "Invoice fee for Germany"
+#~ msgstr "Fakturaavgift för Tyskland"
+
+#~ msgid "Invoice fee for Finland"
+#~ msgstr "Fakturaavgift för Finland"
+
+#~ msgid "Invoice fee for Netherlands"
+#~ msgstr "Fakturaavgift för Nederländerna"
+
+#~ msgid "Invoice fee for Norway"
+#~ msgstr "Fakturaavgift för Norge"
+
+#~ msgid "Invoice fee for Sweden"
+#~ msgstr "Fakturaavgift för Sverige"
+
+#~ msgid "%s / invoice sent"
+#~ msgstr "%s / skickad faktura"
+
+#~ msgid "Testmode Sweden"
+#~ msgstr "Testläge Sverige"
+
+#~ msgid "Testmode Germany"
+#~ msgstr "Testläge Tyskland"
+
+#~ msgid "Enable/disable testmode in Germany"
+#~ msgstr "Aktivera/inaktivera testläge i Tyskland"
+
+#~ msgid "Enable/disable testmode in Finland"
+#~ msgstr "Aktivera/inaktivera testläge i Finland"
+
+#~ msgid "Enable/disable testmode in Netherlands"
+#~ msgstr "Aktivera/inaktivera testläge i Nederländerna"
+
+#~ msgid "Client number production Finland"
+#~ msgstr "Kundnummer produktionsläge Finland"
+
+#~ msgid "Geoip"
+#~ msgstr "Geoip"
+
+#~ msgid "Enable Geoip on SveaWebPay Card Payment to locate customer country"
+#~ msgstr ""
+#~ "Aktivera Geoip för SveaWebPay Kort Betalning för att lokalisera kundens "
+#~ "land"
+
+#~ msgid ""
+#~ "Thank you for your ordering with SveaWebPay, we are now redirecting you."
+#~ msgstr "Tack för att du beställer med SveaWebPay, du blir nu omdirigerad."
+
+#~ msgid "Thank you for paying with SveaWebPay Card Payment"
+#~ msgstr "Tack för att du betalar med SveaWebPay Kort Betalning"
+
+#~ msgid "Merchant id production"
+#~ msgstr "Butiks-id produktionsläge"
+
+#~ msgid "Your SveaWebPay production merchant id"
+#~ msgstr "Ditt butiks-id för SveaWebPay i produktionsläge"
+
+#~ msgid "Secret word production"
+#~ msgstr "Hemligt ord produktionsläge"
+
+#~ msgid "Your SveaWebPay production secret word"
+#~ msgstr "Ditt hemliga ord för SveaWebPay i produktionsläge"
+
+#~ msgid "Merchant id test mode"
+#~ msgstr "Butiks-id testläge"
+
+#~ msgid "Your SveaWebPay test mode merchant id"
+#~ msgstr "Ditt butiks-id för SveaWebPay i testläge"
+
+#~ msgid "Secret word test mode"
+#~ msgstr "Hemligt ord testläge"
+
+#~ msgid "Your SveaWebPay test mode secret word"
+#~ msgstr "Ditt hemliga ord för SveaWebPay i testläge"
+
+#~ msgid ""
+#~ "Enable Geoip on SveaWebPay Direct Bank Payment to locate customer country"
+#~ msgstr ""
+#~ "Aktivera Geoip för SveaWebPay Direkt Bank Betalning för att lokalisera "
+#~ "kundens land"
+
+#~ msgid ""
+#~ "Thank you for your ordering with Sveawebpay, we are now redirecting you."
+#~ msgstr "Tack för att du använder SveaWebPay, du blir nu omdirigerad"
+
+#~ msgid "Username production Denmark"
+#~ msgstr "Användarnamn produktionsläge Danmark"
+
+#~ msgid "Production username for invoice payments in Denmark"
+#~ msgstr "Användarnamn produktionsläge för fakturabetalningar i Danmark"
+
+#~ msgid "Password production Denmark"
+#~ msgstr "Lösenord produktionsläge Danmark"
+
+#~ msgid "Client number production Denmark"
+#~ msgstr "Kundnummer produktionsläge Danmark"
+
+#~ msgid "Production client number for invoice payments in Denmark"
+#~ msgstr "Kundnummer produktionsläge för fakturabetalningar i Danmark"
+
+#~ msgid "Test mode password for invoice payments in Denmark"
+#~ msgstr "Lösenord testläge för fakturabetalningar i Danmark"
+
+#~ msgid "Username production Germany"
+#~ msgstr "Användarnamn produktionsläge Tyskland"
+
+#~ msgid "Production username for invoice payments in Germany"
+#~ msgstr "Användarnamn produktionsläge för fakturabetalningar i Tyskland"
+
+#~ msgid "Password production Germany"
+#~ msgstr "Lösenord produktionsläge Tyskland"
+
+#~ msgid "Client number production Germany"
+#~ msgstr "Kundnummer produktionsläge Tyskland"
+
+#~ msgid "Client number for production mode invoice payments in Germany"
+#~ msgstr "Kundnummer produktionsläge för fakturabetalningar i Tyskland"
+
+#~ msgid "Test mode password for invoice payments in Germany"
+#~ msgstr "Lösenord testläge för fakturabetalningar i Tyskland"
+
+#~ msgid "Username production Finland"
+#~ msgstr "Användarnamn produktionsläge Finland"
+
+#~ msgid "Production username for invoice payments in Finland"
+#~ msgstr "Användarnamn produktionsläge för fakturabetalningar i Finland"
+
+#~ msgid "Password production Finland"
+#~ msgstr "Lösenord produktionsläge Finland"
+
+#~ msgid "Production client number for invoice payments in Finland"
+#~ msgstr "Kundnummer produktionsläge för fakturabetalningar i Finland"
+
+#~ msgid "Test mode password for invoice payments in Finland"
+#~ msgstr "Lösenord testläge för fakturabetalningar i Finland"
+
+#~ msgid "Username production Netherlands"
+#~ msgstr "Användarnamn produktionsläge Nederländerna"
+
+#~ msgid "Production username for invoice payments in Netherlands"
+#~ msgstr "Användarnamn produktionsläge för fakturabetalningar i Nederländerna"
+
+#~ msgid "Password production Netherlands"
+#~ msgstr "Lösenord produktionsläge Nederländerna"
+
+#~ msgid "Client number production Netherlands"
+#~ msgstr "Kundnummer produktionsläge Nederländerna"
+
+#~ msgid "Production client number for invoice payments in Netherlands"
+#~ msgstr "Kundnummer för produktionsläge i Nederländerna"
+
+#~ msgid "Test mode password for invoice payments in Netherlands"
+#~ msgstr "Lösenord testläge för fakturabetalningar i Nederländerna"
+
+#~ msgid "Enable/disable testmode in Norway"
+#~ msgstr "Aktivera/inaktivera testläge i Norge"
+
+#~ msgid "Username production Norway"
+#~ msgstr "Användarnamn produktionsläge Norge"
+
+#~ msgid "Production username for invoice payments in Norway"
+#~ msgstr "Användarnamn produktionsläge för fakturabetalningar i Norge"
+
+#~ msgid "Password production Norway"
+#~ msgstr "Lösenord produktionsläge Norge"
+
+#~ msgid "Client number production Norway"
+#~ msgstr "Kundnummer produktionsläge Norge"
+
+#~ msgid "Production client number for invoice payments in Norway"
+#~ msgstr "Kundnummer produktionsläge för fakturabetalningar i Norge"
+
+#~ msgid "Test mode password for invoice payments in Norway"
+#~ msgstr "Lösenord testläge för fakturabetalningar i Norge"
+
+#~ msgid "Enable/disable testmode in Sweden"
+#~ msgstr "Aktivera/inaktivera testläge i Sverige"
+
+#~ msgid "Username production Sweden"
+#~ msgstr "Användarnamn produktionsläge Sverige"
+
+#~ msgid "Production username for invoice payments in Sweden"
+#~ msgstr "Användarnamn produktionsläge för fakturabetalningar i Sverige"
+
+#~ msgid "Password production Sweden"
+#~ msgstr "Lösenord produktionsläge Sverige"
+
+#~ msgid "Client number production Sweden"
+#~ msgstr "Kundnummer produktionsläge Sverige"
+
+#~ msgid "Production client number for invoice payments in Sweden"
+#~ msgstr "Kundnummer produktionsläge för fakturabetalningar i Sverige"
+
+#~ msgid "Test mode password for invoice payments in Sweden"
+#~ msgstr "Lösenord testläge för fakturabetalningar i Sverige"
+
+#~ msgid "Production username for part payments in Denmark"
+#~ msgstr "Användarnamn produktionsläge för delbetalningar i Danmark"
+
+#~ msgid "Production client number for part payments in Denmark"
+#~ msgstr "Kundnummer produktionsläge för delbetalningar i Danmark"
+
+#~ msgid "Test mode password for part payments in Denmark"
+#~ msgstr "Lösenord testläge för delbetalningar i Danmark"
+
+#~ msgid "Production username for part payments in Germany"
+#~ msgstr "Användarnamn produktionsläge för delbetalningar i Tyskland"
+
+#~ msgid "Client number for production mode part payments in Germany"
+#~ msgstr "Kundnummer produktionsläge för delbetalningar i Tyskland"
+
+#~ msgid "Test mode password for part payments in Germany"
+#~ msgstr "Lösenord testläge för delbetalningar i Tyskland"
+
+#~ msgid "Production username for part payments in Finland"
+#~ msgstr "Användarnamn produktionsläge för delbetalningar i Finland"
+
+#~ msgid "Production client number for part payments in Finland"
+#~ msgstr "Kundnummer produktionsläge för delbetalningar i Finland"
+
+#~ msgid "Test mode password for part payments in Finland"
+#~ msgstr "Lösenord testläge för delbetalningar i Finland"
+
+#~ msgid "Production username for part payments in Netherlands"
+#~ msgstr "Användarnamn produktionsläge för delbetalningar i Nederländerna"
+
+#~ msgid "Production client number for part payments in Netherlands"
+#~ msgstr "Kundnummer produktionsläge för delbetalningar i Nederländerna"
+
+#~ msgid "Test mode password for part payments in Netherlands"
+#~ msgstr "Lösenord testläge för delbetalningar i Nederländerna"
+
+#~ msgid "Production username for part payments in Norway"
+#~ msgstr "Användarnamn produktionsläge för delbetalningar i Norge"
+
+#~ msgid "Production client number for part payments in Norway"
+#~ msgstr "Kundnummer produktionsläge för delbetalningar i Norge"
+
+#~ msgid "Test mode password for part payments in Norway"
+#~ msgstr "Lösenord testläge för delbetalningar i Norge"
+
+#~ msgid "Production client number for part payments in Sweden"
+#~ msgstr "Kundnummer produktionsläge för delbetalningar i Sverige"
+
+#~ msgid "Username test mode Sweden"
+#~ msgstr "Användarnamn testläge Sverige"
+
+#~ msgid "Test mode password for part payments in Sweden"
+#~ msgstr "Lösenord testläge för delbetalningar i Sverige"
+
+#~ msgid "Thank you for paying with SveaWebPay Part Payment"
+#~ msgstr "Tack för att du betalar med SveaWebPay Kort Betalning"
+
+#~ msgid "<strong>Billing country</strong> is not set."
+#~ msgstr "<strong>Betalningsland</strong> är inte valt."
+
+#~ msgid ""
+#~ "Those methods are not available whilst using the direct bank payment "
+#~ "method."
+#~ msgstr ""
+#~ "De betalningsmetoderna är inte tillgängliga då man använder direkt bank "
+#~ "betalningsmetoden."
+
+#~ msgid "<strong>Payment method</strong> has not been chosen."
+#~ msgstr "<strong>Betalningsmetod</strong> har inte valts."
+
+#~ msgid "Text for get address button Denmark"
+#~ msgstr "Text för hämta adress knapp i Danmark"
+
+#~ msgid "Text for get address button Norway"
+#~ msgstr "Text för hämta adress knapp i Norge"
+
+#~ msgid "Get address button Sweden"
+#~ msgstr "Hämta adress knapp Sverige"
+
+#~ msgid "Text for get address button Sweden"
+#~ msgstr "Text för hämta adress knapp i Sverige"
+
+#~ msgid "An <strong>Organisational number</strong> can only contain digits."
+#~ msgstr ""
+#~ "Ett <strong>Organisationsnummer</strong> kan bara innehålla siffror."
+
+#~ msgid "SveaWebPay Card"
+#~ msgstr "SveaWebPay Kort"
+
+#~ msgid "SveaWebPay Invoice"
+#~ msgstr "SveaWebPay Faktura"
+
+#~ msgid "Enable/Disable test mode in Denmark"
+#~ msgstr "Aktivera/Inaktivera testläge i Danmark"
+
+#~ msgid "Enable/Disable test mode in Germany"
+#~ msgstr "Aktivera/inaktivera testläge i Tyskland"
+
+#~ msgid "Enable/Disable test mode in Finland"
+#~ msgstr "Aktivera/Inaktivera testläge i Finland"
+
+#~ msgid "SveaWebPay invoice payment"
+#~ msgstr "SveaWebPay faktura betalning"
+
+#~ msgid "Process Part Payments through SveaWebPay."
+#~ msgstr "Genomför Delbetalningar med SveaWebPay"
+
+#~ msgid "Thank you for paying with Svea Payment plan."
+#~ msgstr "Tack för att du delbetalar genom SveaWebPay."
